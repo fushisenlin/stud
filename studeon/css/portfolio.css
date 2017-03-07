@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{width:1140px; margin:0 auto; text-align:center;}
+.main h2{padding-top:80px; height:50px; line-height:50px; font-size:30px; color:#000002; text-transform:uppercase;}
+.main ul{display:inline-block;}
+.main li{float:left;}
+.main ul a{display:block;  height:65px; padding:0 18px; line-height:65px; font-size:15px; color:#232323;}
+.main .active{color:#e7280c;}
+.main ul a:hover{color:#e7280c;}
+.main .list_pic{height:602px;}
+.main .pic{width:285px; height:182px; float:left; position:relative;}
+.main .pic img{width:100%; height:100%;}
+.main .pic a{display:block; width:100%; height:100%; background:rgba(0,0,0,0.5); font-size:16px; color:#fff; line-height:182px; text-align:center; position:absolute; left:0; top:0; display:none;}
+.main .pic:hover a{display:block;}

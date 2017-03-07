@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{width:1140px; margin:0 auto;}
+
+.main .content{height:1971px;}
+.main .text{float:left; width:840px; padding-left:15px;}
+.main h2{height:28px; line-height:28px; padding-top:39px; font-size:19px; color:#010101; text-transform:uppercase;}
+.main .text h3{height:37px; line-height:37px; font-size:13px; color:#9d9d9d;}
+.main .text h3 span{color:#ef7465;}
+.main .text .pic{width:813px; height:417px; margin:5px 0 3px 0; border:6px solid #ed5844; position:relative;}
+.main .text .pic img{width:100%; height:100%;}
+.main .text .pic .icon{width:93px; height:41px; position:absolute; right:0; bottom:0; z-index:2;}
+.main .text .pic .icon1{width:45px; height:41px; float:left; background:#fff url(../images/s-icons.png) no-repeat -240px -122px;}
+.main .text .pic .icon2{width:45px; height:41px; float:left; margin-left:3px; background:#ed5844 url(../images/s-icons.png) no-repeat -288px -122px; }
+.main .text p{line-height:23px; font-size:13px; color:#9d9d9d; padding-right:9px;}
+.main .text .commment{height:53px; line-height:53px; font-size:26px; color:#282828; padding-top:18px;}
+.main .text .form{height:506px; padding-left:9px;}
+.main .text h4{height:21px; line-height:21px; font-size:16px; color:#131313;}
+.main .text .form_text{width:808px; height:38px; line-height:38px; background:#eeeeee; margin-bottom:19px; padding-left:17px; font-size:15px; color:#474747;}
+.main .text .textarea{height:150px; margin-bottom:16px;}
+.main .text .sub{width:145px; height:51px; background:#ed5844; text-align:center; line-height:51px; text-transform:uppercase; font-size:16px; color:#fefffd; font-weight:bold; border-radius:4px; box-shadow:0 0 12px rgba(0,0,0,0.5) inset;}
+.main .text .commments{height:63px; line-height:63px; font-size:26px; color:#282828; padding-top:0;}
+.main .text .comment_text{width:823px; height:199px; border:1px solid #d4d4d4; margin-bottom:40px;}
+.main .comment_text img{width:158px; height:158px; padding:17px 47px 0 15px; float:left;}
+.main .comment_text .name{padding-top:15px;}
+.main .comment_text p{padding-right:23px;}
+.main .comment_text .reply{width:726px; height:57px;}
+.main .reply p{float:left; height:57px; line-height:57px; color:#c2c2c2; font-weight:bold; padding-left:0;}
+.main .reply .btn{float:right; width:99px; height:43px; background:#ed5844; text-align:center; line-height:43px; text-transform:uppercase; font-size:16px; color:#fefffd; font-weight:bold; border-radius:4px; box-shadow:0 0 12px rgba(0,0,0,0.5) inset;}
+
+.main .list{float:right; width:270px;}
+
+.main .list .search{width:253px; height:42px; border:1px solid #dbdbdb; margin:4px 15px 22px 0;}
+.main .search .text{width:211px; height:42px; float:left; line-height:42px; padding-left:17px; font-size:15px; color:#474747;}
+.main .search .btn{width:25px; height:42px; float:left; background:#fff url(../images/search.png) no-repeat left center;}
+.main .list h2{padding:0 0 14px 0;}
+.main .list .blog{padding-top:39px;}
+.main .list ul{height:171px;}
+.main .list li{float:left;}
+.main .list ul a{display:block; width:270px; height:23px; line-height:23px; padding-left:26px; font-size:15px; color:#474747; background:url(../images/b_arrow.png) no-repeat left bottom;}
+.main .list .archives{height:149px;}
+.main .list .listpic{padding:2px 0 0 4px;}
+.main .list .pic{width:114px; height:73px; float:left; margin:0 12px 8px 0;  line-height:73px; text-align:center; position:relative;}
+.main .list img{width:100%; height:100%;}
+.main .list .pic a{width:100%; height:100%; display:block; font-size:10px; color:#fff; background:rgba(0,0,0,0.5); position:absolute; left:0; top:0; display:none;}
+.main .list .pic:hover a{display:block;}
